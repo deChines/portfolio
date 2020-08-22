@@ -219,8 +219,8 @@ p {
 
   p {
     margin-left: 0.8em;
-    font-size: 3em;
-    
+    font-size: 3em !important;
+
   }
 
   .banner {
