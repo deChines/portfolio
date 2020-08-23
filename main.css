@@ -26,7 +26,8 @@ section {
 
 p {
   margin-left: 1em;
-  font-size: 1em;
+  font-size: 1.5em;
+  color: white !important;
 }
 
 /* first banner */
@@ -212,6 +213,8 @@ p {
   box-sizing:border-box;
 }
 
+.sky-gradient-04 { background: linear-gradient(to bottom, #20202c 0%,#515175 100%); }
+
 @media (max-width: 991px) {
   section {
     font-size:2em;
@@ -219,6 +222,7 @@ p {
 
   p {
     margin-left: 0.8em;
+
     font-size: 3em !important;
 
   }
