@@ -190,9 +190,37 @@ body {
 }
 .container section {
   display: inline-block;
-    margin:8vh 0px;
-    width: 42vw;
+    margin-bottom:8vh;
+    width: 40vw;
+    margin-right: 4vw;
 }
+
+.container section img {
+    height: 100%;
+    width: auto;
+}
+
+.filtered {
+   background: #0000ff;
+}
+
+.filtered img {
+  mix-blend-mode: screen;
+  -webkit-filter: grayscale(100%) contrast(100%);
+  filter: grayscale(100%) contrast(100%);
+  opacity: 1;
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  width: 40vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
 #used div{
     font-size:14px !important;
     display:inline-block;
@@ -372,6 +400,7 @@ body {
       display: block;
         margin:8vh 0px;
         width: 100%;
+
     }
     #middle h1 {
         color:#0000ff;
