@@ -368,4 +368,8 @@ body {
     #box div {
         width:100%;
     }
+    .container section {
+      display: block;
+        margin:8vh 0px;
+    }
 }
