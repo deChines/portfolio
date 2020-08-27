@@ -228,6 +228,7 @@ body {
     border:2px solid #0000ff;
     margin:0px 10px;
     border-radius:50px;
+    margin-bottom: 10px;
 }
 #used:hover {
     cursor:text;
