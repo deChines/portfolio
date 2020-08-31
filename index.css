@@ -195,6 +195,12 @@ body {
     margin-right: 4vw;
 }
 
+#about_container section {
+  display: block;
+    margin:8vh 0px;
+    width: 100%;
+}
+
 .container section img {
     height: 100%;
     width: auto;
@@ -401,8 +407,10 @@ body {
       display: block;
         margin:8vh 0px;
         width: 100%;
-
     }
+
+
+
     #middle h1 {
         color:#0000ff;
         font-size:40px;
