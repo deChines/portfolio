@@ -18,7 +18,11 @@ var TxtType = function(el, toRotate, period) {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
 
-        this.el.innerHTML = '<span class="wrap">'+"randy.ch/"+this.txt+'</span>';
+        this.el.innerHTML =
+        '<span>'+"randy."+'</span>'
+        +'<span style="">'+"ch"+'</span>'
+        //+'<span style="color: rgba(255, 187, 0, 1);">'+"/"+'</span>'
+        +'<span class="wrap" style="">'+this.txt+'</span>';
 
         var that = this;
         var delta = 200 - Math.random() * 100;

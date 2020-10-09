@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     padding:0px;
     margin:0px;
-    /* background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
-    background-size:cover; */
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg.jpg") center center;
+    background-size:cover;
     background-color: black;
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans';
 }
 #loading {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:#0000ff;
+    background:#ffbb00;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid #0000ff;
+    border-bottom:12px solid #ffbb00;
     border-radius:50%;
     margin:0;
 }
@@ -48,10 +48,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:#0000ff;
+    background:#ffbb00;
 }
 .box2 {
-    background:#0000ff;
+    background:#ffbb00;
     margin-left:-5px;
 }
 #menu {
@@ -80,7 +80,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:#0000ff;
+    color:#ffbb00;
     font-size:70px;
     text-decoration:underline;
 }
@@ -138,15 +138,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(0,0,255,0.9);
+    background:#ffbb00;
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(0,0,255,0.9);
+    background:#ffbb00;
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(0,0,255,0.9);
+    background:#ffbb00;
     cursor:pointer;
 }
 #middle table {
@@ -166,14 +166,14 @@ body {
 }
 .social:hover {
     cursor: pointer;
-    color:#0000ff;
+    color:#ffbb00;
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
     background:white;
-    color:#0000ff;
+    color:#ffbb00;
     z-index:9;
     position:fixed;
     max-height:100vh;
@@ -207,7 +207,7 @@ body {
 }
 
 .filtered {
-   background: #0000ff;
+   background: #ffbb00;
 }
 
 .filtered img {
@@ -231,7 +231,7 @@ body {
     font-size:14px !important;
     display:inline-block;
     padding:8px 10px;
-    border:2px solid #0000ff;
+    border:2px solid #ffbb00;
     margin:0px 10px;
     border-radius:50px;
     margin-bottom: 10px;
@@ -259,9 +259,9 @@ body {
 .btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#0000ff;
+    color:#ffbb00;
     background:transparent;
-    border:3px solid #0000ff;
+    border:3px solid #ffbb00;
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
@@ -270,13 +270,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:#0000ff;
+    color:#ffbb00;
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#0000ff;
+    color:#ffbb00;
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -294,12 +294,12 @@ body {
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:3px solid #0000ff;
+    border-bottom:3px solid #ffbb00;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#0000ff;
+    color:#ffbb00;
     font-weight:bold;
 }
 .container form textarea {
@@ -307,26 +307,26 @@ body {
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid #0000ff;
+    border-bottom:3px solid #ffbb00;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#0000ff;
+    color:#ffbb00;
     font-weight:bold;
 }
 .container form input:focus {
     outline:none;
-    border-bottom:3px solid #0000ff;
+    border-bottom:3px solid #ffbb00;
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid #0000ff;
+    border-bottom:3px solid #ffbb00;
 }
 ::placeholder {
-    color:#0000ff;
+    color:#ffbb00;
 }
 #footer {
     color:#fff;
@@ -340,7 +340,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:#0000ff ;
+    color:#ffbb00 ;
 }
 #particles-js {
     position:fixed;
@@ -355,14 +355,14 @@ body {
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #0000ff;
+    background: #ffbb00;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 50, 50,0.8);
 }
 ::selection {
 	color: #fff;
-	background: #0000ff;
+	background: #ffbb00;
 }
 
 @media (max-width: 800px){
@@ -412,7 +412,7 @@ body {
 
 
     #middle h1 {
-        color:#0000ff;
+        color:#ffbb00;
         font-size:40px;
         text-decoration:underline;
     }
