@@ -251,16 +251,22 @@ Kiran Doshi, Franziska Eckert, Kira Erb, Lucien Erdin, Philipp Honegger, Frederi
             <section>
                 <h2>contact me</h2>
                 <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
+                    <form action="mailto:randy_chen3@hotmail.com?subject=Hey%20Randy%20lets%20talk!" method="post" enctype="text/plain"> <!--onsubmit="replacespace();" -->
+
+                        <input type="text" placeholder="subject - networking, collaboration, offer, beer" required  name="subject"><br>
+                        <textarea type="text" id="p" placeholder="your message" required rows="5" name="message"></textarea><br>
+                        <button class="btn_one" onclick="">send</button>
                     </form>
+
                 </p>
             </section>
         </div>
-
+        <script>//mail space replaced with "+"
+        function replacespace() {
+            var p = document.getElementById('p')
+            p.value = p.value.replace(/\s+/g, '  ');
+        }
+        </script>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="typewrite.js"></script>
