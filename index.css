@@ -112,6 +112,8 @@ html {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
+
+
 #work {
     width:10vw;
     height:10vw;
@@ -385,11 +387,25 @@ html {
 	color: #fff;
 	background: #ffbb00;
 }
+.about-facts {
+  display: inline-flex;
+}
 
-@media (max-width: 800px){
+.sub-about {
+  width: 100%;
+}
+
+@media (max-width: 799px){
     #about {
         display:none;
     }
+    .about-facts {
+      display:block;
+    }
+    .sub-about {
+      width: 100%;
+    }
+
     #contact {
         display:none;
     }
