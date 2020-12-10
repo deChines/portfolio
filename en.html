@@ -34,7 +34,7 @@
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1 class="typewrite" style="letter-spacing:-0.8px" data-period="2000" data-type='[ "/atty", "/en", "/inese", "/arismatic", "/eeselover", "/allenger", "/arming", "/ocoholic", "/ampion", "/en"]'></h1>
+        <h1 class="typewrite" style="letter-spacing:-0.8px" data-period="2000" data-type='[ "/atty", "/en", "/inese", "/arismatic", "/eeselover", "/ill", "/allenger", "/arming", "/ocoholic", "/ampion", "/en", "/anger", "/eerfull", "/arged"]'></h1>
 
         <h2>Interaction Designer / Creative Thinker / Problem Solver</h2>
         <div id="menu">
@@ -55,7 +55,7 @@
         <div onclick="closework()" class="closeButton"><i class="fas fa-angle-right"></i></div>
         <h1>works</h1>
         <section class="project_1">
-         <div class="gallery"> <!--or with filtered -->
+         <div class="gallery"> <!-- onclick="showproject()" -->
             <img src="j2r.jpg" class="" alt="">
           </div>
           </section>
@@ -131,6 +131,11 @@ Kiran Doshi, Franziska Eckert, Kira Erb, Lucien Erdin, Philipp Honegger, Frederi
                 <div><i class="fas fa-plus-circle"></i>&nbsp;HTML/CSS</div>
             </div>
         </section>
+        <section class="project_2">
+         <div class="gallery"> <!--or with filtered -->
+            <img src="zauberwald.jpg" class="" alt="">
+          </div>
+          </section>
         <section>
             <h2>Zauberwald - Quellen der Energie</h2>
             <h3>Team:</h3>
@@ -138,25 +143,22 @@ Kiran Doshi, Franziska Eckert, Kira Erb, Lucien Erdin, Philipp Honegger, Frederi
             Lilian Lopez</p>
             <h3>Description:</h3>
 
-            <p>Adero was created to autonomously deliver a wide range of goods in interiors, combining state-of-the-art technology with a simple but attractive design. Our title sponsor Jelmoli, the leading premium department store in Switzerland, will put our robot into operation at Zurich Airport in 2020/21. It will deliver goods ordered from the online store to predefined pickup points throughout the airport area, providing a unique customer experience. Adero actively interacts with its environment and strives to build relationships with the people it meets along the way. It captures the attention of the audience, both through sound and light, and transmits its current state using the same audiovisual means. When Adero arrives at its destination, it shows its trustworthy and friendly character, creating a novel but intuitive interaction experience.</p>
+            <p>For the exhibition "Zauberwald" in Lenzerheide we were able build an interactive light installation. We collaborated with EWZ with the goal to bring attention to the topic of sustainable energy and energy in Switzerland in general. Lilian and I focused on the Wind energy production and wanted to make the wind energy visible. Inspired by the location Lenzerheide we build a topological model and mapped the input, which was a blow, into a light sources. Visitors were able to see the amount of energy they produced with a single blow depending on the color, intensity and width of the light feedback. Additionally it was connected to a data visualisation projection that provided more information on energy consumption.</p>
 
-              <h3>Press:</h3>
-              <p>
-              <a href="https://www.watson.ch/digital/schweiz/376240120-adero-studenten-der-eth-und-zhdk-enthuellen-lieferroboter-der-zukunft">watson.ch</a>/
-              <a href="https://www.tagesanzeiger.ch/zuerich/stadt/der-wippenden-kiste-fliegendie-herzen-zu/story/12439304">tagesanzeiger.ch</a>/
-              <a href="https://www.hochparterre.ch/nachrichten/design/blog/post/detail/niedlicher-butler/1566307568/">hochparterre.ch</a>/</p>
             <h3>Links:</h3>
-            <p><a href="http://adero.ethz.ch">adero.ethz.ch</a></p>
+            <p><a href="https://interactiondesign.zhdk.ch/en/projects/zauberwald-lenzerheide/">interactiondesign.zhdk.ch/</a></p>
+            <p><a href="https://vimeo.com/325815678">video/</a></p>
             <h3>Partner:</h3>
-            <p><a href="https://www.jelmoli.ch/jelmolis-digitale-transformation">EWZ</a></p>
+            <p><a href="https://www.ewz.ch/">EWZ</a></p>
             <h3>Skills:</h3>
             <div id="used">
-                <div><i class="fas fa-plus-circle"></i>&nbsp;UX Design</div>
-                <div><i class="fas fa-plus-circle"></i>&nbsp;Light Design</div>
-                <div><i class="fas fa-plus-circle"></i>&nbsp;Sound Design</div>
-                <div><i class="fas fa-plus-circle"></i>&nbsp;Product Design</div>
+                <div><i class="fas fa-plus-circle"></i>&nbsp;Java</div>
+                <div><i class="fas fa-plus-circle"></i>&nbsp;Digital Fabrication</div>
+                <div><i class="fas fa-plus-circle"></i>&nbsp;Electronics</div>
+                <div><i class="fas fa-plus-circle"></i>&nbsp;Rhino 3D</div>
                 <div><i class="fas fa-plus-circle"></i>&nbsp;Arduino</div>
-                <div><i class="fas fa-plus-circle"></i>&nbsp;HTML/CSS</div>
+                <div><i class="fas fa-plus-circle"></i>&nbsp;3D Modelling</div>
+                <div><i class="fas fa-plus-circle"></i>&nbsp;Physical Computing</div>
             </div>
         </section>
 
@@ -166,6 +168,13 @@ Kiran Doshi, Franziska Eckert, Kira Erb, Lucien Erdin, Philipp Honegger, Frederi
         </section>
 
     </div>
+
+<!-- <div id="project_container" class="container">
+  <div onclick="closeproject()" class="closeButton"><i class="fas fa-angle-right"></i></div>
+  TEST
+</div> -->
+
+
     <div id="about_container" class="container">
             <div onclick="closeabout()" class="closeButton"><i class="fas fa-angle-left"></i></div>
             <h1>about</h1>
@@ -189,7 +198,7 @@ Kiran Doshi, Franziska Eckert, Kira Erb, Lucien Erdin, Philipp Honegger, Frederi
                 <h2>Exhibitions</h2>
                 <ul>
                   <li><p>Vienna Design Week 2020 – <i>Journey to Recovery</i></p></li>
-                  <li><p>Refresh #3 2020– <i>Journey to Recovery</i></p></li>
+                  <li><p>Refresh #3 2020 – <i>Journey to Recovery</i></p></li>
                   <li><p>ZHdK Highlights 2019 – <i>Moving Posters: Slot Machines / Cash lost in Em</i> </p></li>
                   <li><p>Zauberwald 2018 – <i>Wind: Interactive Installation</i> </p></li>
                 </ul>
