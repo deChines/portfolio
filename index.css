@@ -68,7 +68,7 @@ html {
 }
 #menu a {
     margin:0px 6%;
-    font-size:19px;
+    font-size:1.1em;
     color:#fff;
     text-decoration:underline;
     text-decoration-thickness: 2px;
@@ -88,7 +88,7 @@ html {
 }
 #middle h1 {
     color:#ffbb00;
-    font-size:70px;
+    font-size:4.375em;
     text-decoration:underline;
     text-decoration-thickness: 6px;
     font-weight: 700;
@@ -98,7 +98,7 @@ html {
     width:10vw;
     height:10vw;
     text-align:center;
-    font-size:25px;
+    font-size:1.5em;
     transform:rotate(-90deg);
     background:transparent;
     color:#fff;
@@ -118,7 +118,7 @@ html {
     width:10vw;
     height:10vw;
     text-align:center;
-    font-size:25px;
+    font-size:1.5em;
     transform:rotate(90deg);
     background:transparent;
     color:#fff;
@@ -136,7 +136,7 @@ html {
     width:10vw;
     height:10vw;
     text-align:center;
-    font-size:25px;
+    font-size:1.5em;
     background:transparent;
     color:#fff;
     position:fixed;
@@ -170,7 +170,7 @@ html {
 }
 .social {
     color:#fff;
-    font-size:22px;
+    font-size:1.8em;
     border-radius:50%;
     transition:0.4s ease-in-out;
     margin:0px 8px;
@@ -194,7 +194,7 @@ html {
 }
 
 .closeButton {
-    font-size:50px !important;
+    font-size:3.2em !important;
     transition:0.4s ease-in-out;
 }
 
@@ -249,7 +249,7 @@ html {
 }
 
 #used div{
-    font-size:14px !important;
+    font-size:1em !important;
     display:inline-block;
     padding:8px 10px;
     border:2px solid #ffbb00;
@@ -264,23 +264,23 @@ html {
     cursor:text;
 }
 .container h1 {
-    font-size:60px;
+    font-size:4.375em;
     text-decoration:underline;
     text-decoration-thickness: 6px;
 }
 .container p {
   line-height: 1.2em;
-    font-size:21px;
+    font-size:1.3em;
     color:black;
 }
 
 .container p a {
-    font-size:21px;
+    font-size:1.3em;
     color:black;
 }
 
 .btn_one {
-    font-size:18px;
+    font-size:1.3em;
     font-family: 'Josefin Sans', sans-serif;
     color:#ffbb00;
     background:transparent;
@@ -297,7 +297,7 @@ html {
     background:#fff;
 }
 .btn_two {
-    font-size:18px;
+    font-size:1.1em;
     font-family: 'Josefin Sans', sans-serif;
     color:#ffbb00;
     background:#fff;
@@ -320,7 +320,7 @@ html {
     border:3px solid #ffbb00;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
-    font-size:18px;
+    font-size:1.1em;
     transition:0.4s ease-in-out;
     color:#ffbb00;
     font-weight:bold;
@@ -333,7 +333,7 @@ html {
     border:3px solid #ffbb00;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
-    font-size:18px;
+    font-size:1.1em;
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
@@ -359,7 +359,7 @@ html {
     position:fixed;
     z-index:1;
     bottom:0;
-    font-size:16px;
+    font-size:1.1em;
     font-weight:bold;
 }
 #footer a {
@@ -450,7 +450,7 @@ html {
 
     #middle h1 {
         color:#ffbb00;
-        font-size:40px;
+        font-size:2.5em;
         text-decoration:underline;
         text-decoration-thickness: 6px;
     }
