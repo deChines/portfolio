@@ -26,19 +26,7 @@ function closework(){
         $("#work_container").css("display","none");
     },800);
 }
-function showproject(){
-    $("#project_container").css("display","inherit");
-    $("#project_container").addClass("animated slideInRight");
-    setTimeout(function(){
-        $("#project_container").removeClass("animated slideInRight");
-    },800);
-}
-function closeproject(){
-    $("#project_container").addClass("animated slideOutRight");
-    setTimeout(function(){
-        $("#project_container").removeClass("animated slideOutRight");
-        $("#project_container").css("display","none");
-    },800);
+
 }
 function showcontact(){
     $("#contact_container").css("display","inherit");

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 body {
     padding:0px;
     margin:0px;
@@ -269,13 +271,16 @@ html {
     text-decoration-thickness: 6px;
 }
 .container p {
+  font-family: 'jost';
   line-height: 1.2em;
     font-size:1.3em;
     color:black;
+    letter-spacing: 0.02em;
 }
 
 .container p a {
-    font-size:1.3em;
+  font-family: 'Josefin Sans';
+    font-size:1.1em;
     color:black;
 }
 
@@ -389,10 +394,18 @@ html {
 }
 .about-facts {
   display: inline-flex;
+  /* background-color: #ffbb0040; */
 }
 
 .sub-about {
   width: 100%;
+  padding-left: 1em;
+  background-color: #ffbb0040;
+  margin-right: 2em;
+}
+
+.sub-about ul {
+  padding-left: 1em;
 }
 
 @media (max-width: 799px){
@@ -403,7 +416,10 @@ html {
       display:block;
     }
     .sub-about {
-      width: 100%;
+      width: 84vw;
+      padding: 2vw;
+      margin-bottom: 2vh;
+      padding-left: 4vw;
     }
 
     #contact {
